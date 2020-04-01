@@ -1,3 +1,3 @@
-import DateRangePickerContainer from "./src/DateRangePickerContainer";
+const DateRangePickerContainer = require('./src/DateRangePickerContainer');
 
-export default DateRangePickerContainer
+module.exports = DateRangePickerContainer;
