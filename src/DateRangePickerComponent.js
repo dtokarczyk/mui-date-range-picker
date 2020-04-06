@@ -83,7 +83,7 @@ function DateRangePickerComponent({
         else if (!end) {
           if (utils.isBeforeDay(day, begin)) {
             setEnd(begin);
-            setBegin(day);
+            setBegin(day);f
           } else {
             setEnd(day);
           }

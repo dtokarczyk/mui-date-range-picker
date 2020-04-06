@@ -4,7 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack && jest"
   },
   "repository": {
     "type": "git",
@@ -22,13 +22,15 @@
     "@date-io/date-fns": "^1.3.0",
     "@material-ui/core": "^4.9.8",
     "@material-ui/pickers": "^3.2.10",
+    "@testing-library/react": "^10.0.2",
     "babel-loader": "^8.1.0",
     "babel-preset-react": "^6.24.1",
     "clsx": "^1.1.0",
     "css-loader": "^3.4.2",
-    "date-fns": "^2.11.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "date-fns": "2.8.1",
+    "jest": "^25.2.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "style-loader": "^1.1.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"

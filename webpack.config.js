@@ -8,6 +8,10 @@ module.exports = {
 		filename: "index.js",
 		libraryTarget: "commonjs2"
 	},
+	externals : {
+		react: 'react',
+		reactDom: 'react-dom'
+	},
 	module: {
 		rules: [
 			{ test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" },
