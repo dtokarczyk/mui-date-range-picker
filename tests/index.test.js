@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from '@testing-library/react'
-import DateRangePicker from '../dist/index'
+import DateRangePicker from ''
 
 describe('Tests', () => {
 	it('Expect to not log errors in console', () => {
